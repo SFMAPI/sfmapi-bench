@@ -12,6 +12,7 @@ class BenchmarkDataset:
     name: str
     description: str
     source: str
+    license: str
     mirrors: dict[str, str]
     action_id: str
     tags: tuple[str, ...] = ()
@@ -27,6 +28,7 @@ class BenchmarkDataset:
             "name": self.name,
             "description": self.description,
             "source": self.source,
+            "license": self.license,
             "mirrors": dict(self.mirrors),
             "action_id": self.action_id,
             "tags": list(self.tags),
@@ -68,6 +70,7 @@ SPHERESFM_DATASETS = (
         name="Campus parterre",
         description="SphereSfM ERP panorama dataset recorded around a campus parterre scene.",
         source="https://github.com/json87/SphereSfM#dataset",
+        license="not specified by upstream",
         mirrors={
             "google_drive": "https://drive.google.com/file/d/1KB1uk9wEUvEGVnFOwcrw4r_KxUk711eb/view?usp=drive_link",
             "baidu_disk": "https://pan.baidu.com/s/1C259Ygf_lJHd5iT-gmJWGA?pwd=5cqb",
@@ -88,6 +91,7 @@ SPHERESFM_DATASETS = (
         name="Campus building",
         description="SphereSfM ERP panorama dataset recorded around a campus building scene.",
         source="https://github.com/json87/SphereSfM#dataset",
+        license="not specified by upstream",
         mirrors={
             "google_drive": "https://drive.google.com/file/d/17HfwXxuU-Q-tzZtlsroGa-ZibepAT0-a/view?usp=drive_link",
             "baidu_disk": "https://pan.baidu.com/s/1r_41WPs4R1wV2ow1rmgabw?pwd=olxy",
@@ -108,6 +112,7 @@ SPHERESFM_DATASETS = (
         name="Urban street",
         description="SphereSfM ERP panorama dataset recorded in an urban street scene.",
         source="https://github.com/json87/SphereSfM#dataset",
+        license="not specified by upstream",
         mirrors={
             "google_drive": "https://drive.google.com/file/d/1Tmm7_7153ybi1mhzGUe2L8j_r1ho-UJf/view?usp=drive_link",
             "baidu_disk": "https://pan.baidu.com/s/1YcNiCH7oWSA4EW_x5epAsQ?pwd=sis5",

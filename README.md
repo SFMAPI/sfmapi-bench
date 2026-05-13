@@ -79,6 +79,12 @@ currently includes the three upstream SphereSfM test datasets:
 - `spheresfm-campus-building`
 - `spheresfm-urban-street`
 
+The benchmark package does not redistribute those datasets. The upstream
+SphereSfM README publishes download mirrors but does not state a dataset
+license, so the catalog reports `license: "not specified by upstream"`.
+Confirm the dataset terms before redistributing data or using it in a
+commercial benchmark report.
+
 List dataset manifests, including download mirrors:
 
 ```powershell
