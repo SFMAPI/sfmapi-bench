@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> **MOVED.** This project was renamed and now lives at <https://github.com/SceneAPI/SceneBench> (`sceneapi-bench`). This repository holds the sfmapi-era history and will be archived.
+
 # sfmapi-bench
 
 Standalone benchmark and conformance utilities for sfmapi-compatible APIs.
